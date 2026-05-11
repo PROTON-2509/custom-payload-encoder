@@ -1,0 +1,159 @@
+======================================================================
+		CUSTOM PAYLOAD ENCODER & OBFUSCATION REPORT
+======================================================================
+Generated On: 2026-05-11 07:46:40
+
+
+
+ORIGINAL PAYLOAD
+----------------------------------------------------------------------
+Invoke-TestFunction
+
+
+======================================================================
+TECHNIQUE: Original
+======================================================================
+
+TRANSFORMED PAYLOAD:
+Invoke-TestFunction
+
+DETECTION STATUS:
+DETECTED
+
+DETECTION SCORE:
+66%
+
+MATCHED SIGNATURES:
+['Invoke', 'TestFunction']
+
+
+======================================================================
+TECHNIQUE: Base64
+======================================================================
+
+TRANSFORMED PAYLOAD:
+SW52b2tlLVRlc3RGdW5jdGlvbg==
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+TECHNIQUE: XOR
+======================================================================
+
+TRANSFORMED PAYLOAD:
+Lksjn`(Q`vqCpkfqljk
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+TECHNIQUE: ROT13
+======================================================================
+
+TRANSFORMED PAYLOAD:
+Vaibxr-GrfgShapgvba
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+TECHNIQUE: RandomInsertion
+======================================================================
+
+TRANSFORMED PAYLOAD:
+IunavKoYkdef-iTpeSsAtPFuuEnYcHtviaoMnN
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+TECHNIQUE: SplitConcat
+======================================================================
+
+TRANSFORMED PAYLOAD:
+"Inv" + "oke" + "-Te" + "stF" + "unc" + "tio" + "n"
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+TECHNIQUE: EscapeObfuscation
+======================================================================
+
+TRANSFORMED PAYLOAD:
+\x49\x6e\x76\x6f\x6b\x65\x2d\x54\x65\x73\x74\x46\x75\x6e\x63\x74\x69\x6f\x6e
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+TECHNIQUE: MultiLayer
+======================================================================
+
+TRANSFORMED PAYLOAD:
+UWZuZX91KkB1YWBUb2Z3YHFlZg==
+
+DETECTION STATUS:
+BYPASSED
+
+DETECTION SCORE:
+0%
+
+MATCHED SIGNATURES:
+[]
+
+
+======================================================================
+			    FINAL ANALYSIS
+======================================================================
+
+The experiment demonstrates that encoding and
+string obfuscation techniques can significantly
+reduce the effectiveness of simple static
+signature-based detection systems.
+
+Multi-layer encoding achieved the strongest
+evasion effectiveness in this simulated environment.
